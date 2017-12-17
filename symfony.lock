@@ -44,6 +44,9 @@
     "doctrine/orm": {
         "version": "v2.5.13"
     },
+    "herzult/php-ssh": {
+        "version": "v1.1.1"
+    },
     "javiereguiluz/easyadmin-bundle": {
         "version": "1.17",
         "recipe": {

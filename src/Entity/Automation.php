@@ -30,4 +30,25 @@ class Automation
     {
         $this->isActive = true;
     }
+    public function getId()
+    {
+        return $this->id;
+    }
+    public function isActive()
+    {
+        return $this->isActive;
+    }
+    public function getName()
+    {
+        return $this->name;
+    }
+    public function setActive($active)
+    {
+        $this->active = $active;
+    }
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
 }
